@@ -54,7 +54,7 @@ header{
 
 
 /*#startregion main*/
-.conteiner{
+main>.conteiner{
     height: 1300px;
     padding: 3rem 0;
     width: 71%;
@@ -67,14 +67,136 @@ header{
 }
 
 .row>.col{
-    background-color: red;
     width: 33%;
-    margin: 1%;
+    margin: 7px;
+}
+
+.img>img{
+    width: 100%;
+}
+
+.col>.caption{
+    padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col>.brand{
+    color: #535360;
+    font-size: 13px;
+}
+
+.col>.title{
+    color: black;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col>.price{
+    display: inline-block;
+    color: red;
+    font-size: 12px;
+}
+
+.col>.old_price{
+    display: inline-block;
+    color: black;
+    font-size: 11px;
+    text-decoration: line-through;
+}
+
+.col>.img{
+    position: relative;
+}
+
+.img:hover{
+    
+}
+
+.img>.label{
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: x-small;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.img>.sales{
+    position: absolute;
+    left: 0;
+    bottom: 10%;
+    background-color: red;
+}
+
+.img>.sostenibilita{
+    position: absolute;
+    background-color: green;
+    bottom: 10%;
+    left: 36px;
+}
+
+.img>.heart{
+    background-color: white;
+    position: absolute;
+    top: 2%;
+    right: 0;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+.heart:hover{
+    color: red;
+}
+
+#last_card{
+    background-color: green;
+    position: absolute;
+    left: 0;
+    bottom: 10%;
 }
 /*#endregion main*/
 
 
 /*#startregion footer*/
+footer{
+    background-color: #1a1a1a;
+    box-shadow: 0 0 5px 0;
+}
+
+footer>.conteiner{
+    height: 70px;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner>.col{
+    width: 50%;
+    padding: 10px 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.col>span{
+    font-size: x-small;
+}
+
+.col>h5{
+    margin-bottom: 6px;
+    margin-right: 15px;
+}
+
+.col>svg{
+    margin: 0 3px;
+}
+
+.ta-end{
+    text-align: end;
+}
+
 /*#endregion footer*/
 
 
