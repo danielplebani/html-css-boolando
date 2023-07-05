@@ -9,7 +9,10 @@
 header{
     background-color: #ff6900;
     height: 60px;
+    width: 100%;
     box-shadow:0 0 8px black;
+    position: fixed;
+    z-index: 5;
 }
 
 .header{
@@ -55,8 +58,8 @@ header{
 
 /*#startregion main*/
 main>.conteiner{
-    height: 1300px;
-    padding: 3rem 0;
+    height: 1260px;
+    padding: 6rem 0;
     width: 71%;
     margin: auto;
 }
@@ -156,6 +159,18 @@ main>.conteiner{
     left: 0;
     bottom: 10%;
 }
+
+.imgb{
+    display:none;
+}
+
+.img:hover .imga{
+    display: none;
+}
+
+.img:hover .imgb{
+    display: block;
+}
 /*#endregion main*/
 
 
@@ -175,7 +190,7 @@ footer>.conteiner{
 
 .conteiner>.col{
     width: 50%;
-    padding: 10px 0;
+    padding: 13px 0;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
@@ -196,7 +211,6 @@ footer>.conteiner{
 .ta-end{
     text-align: end;
 }
-
 /*#endregion footer*/
 
 
